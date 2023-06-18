@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dog's Friends</title>
+    <link rel="stylesheet" href="../../CSS/style6.css">
+</head>
+<body>
+
+    <section class="container">
+    
+        <header class="camisa camisa1">
+            <img src="../../Img/logo.jpg">
+        </header>
+
+        <header class="camisa camisa2"> 
+            <h1>Dog's Friends</h1>
+        </header>
+    
+        <header class="camisa camisa3">
+            <form>
+                <input type="text" name="search" placeholder="Pesquisar">
+                 <button>
+                    <img src="../../Img/loupe.png" alt="lupa">
+                </button>
+            </form>
+    
+            <a href="../cadastro.html">Entrar/Cadastrar</a>
+        </header>
+        
+        <nav class="camisa camisa4">
+            <ul>
+                <li><a href="../inicial.html">LOJA</a></li>
+                <li><a href="../novidades.html">NOVIDADES</a></li>
+                <li><a href="../promocoes.html">PROMOÇÕES</a></li>
+                <li><a href="../contato.html">FALE CONOSCO</a></li>
+            </ul>
+        </nav>
+
+        <main class="camisa camisa5">
+            <section class="imagem">
+                <img src="../../Img/camisa15.jpg">
+            </section>
+
+            <section class="informacoes">
+                <h1>Jogo da velha patinhas <br>e corações</h1>
+                <p><del>R$64,90</del> R$54,90</p>
+
+                <h2>Escolha o tamanho:</h2>
+                <section id="tamanhos">
+                    <button class="PP" onclick="tamanhoSelecionado(this)">PP</button>
+                    <button class="P" onclick="tamanhoSelecionado(this)">P</button>
+                    <button class="M" onclick="tamanhoSelecionado(this)">M</button>
+                    <button class="G" onclick="tamanhoSelecionado(this)">G</button>
+                    <button class="GG" onclick="tamanhoSelecionado(this)">GG</button>
+                </section>
+
+                <h2>Escolha a cor:</h2>
+                <section id="cores">
+                    <button id="preto" onclick="corSelecionada(this)"></button>
+                    <button id="branco" onclick="corSelecionada(this)"></button>
+                    <button id="cinza" onclick="corSelecionada(this)"></button>
+                </section>
+
+                <h2>Quantidade:</h2>
+                <section id="quantidade">
+                    <button class="menos" onclick="diminuir()">-</button>
+                    <section class="qt">1</section>
+                    <button class="mais" onclick="aumentar()">+</button>
+                </section>
+    
+                <section id="comprar">
+                    <button onclick="carrinho15()">Adicionar ao Carrinho</button>
+                </section>>
+            </section>
+        </main>
+
+        <footer class="camisa camisa6">
+            <ul>
+                <li><a href="../inicial.html">Loja</a></li>
+                <li><a href="../sobre.html">Sobre</a></li>
+                <li><a href="../perguntas.html">Perguntas frequentes</a></li>
+            </ul>
+
+            <h1>Formas de pagamento:</h1>
+            <h2>Pix, Boleto bancário ou cartão de crédito em até 5x sem juros.</h2>
+            <hr>
+            <br>
+            <p>Copyright © 2023 - Desenvolvido por Thais Carvalho</p>
+        </footer>
+                
+    </section>
+
+<script src="../../JS/script.js"></script>
+
+</body>
+</html>

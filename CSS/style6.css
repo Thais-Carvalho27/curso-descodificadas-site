@@ -1,0 +1,264 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+
+body{
+    margin:0px;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 500px 1500px 675px;
+    grid-template-rows: 300px 100px 1200px 500px;
+}
+
+.camisa1 img{
+    width: 500px;
+    height: 300px;
+    padding-left: 50px;
+}
+
+.camisa2 h1{
+    text-align: center;
+    font-size: 250px;
+    font-family: 'Caveat', cursive;
+    margin: 0px;
+}
+
+.camisa3 input{
+    height: 70px;
+    width: 550px;
+    font-size: 30px;
+    margin-top: 60px;
+    margin-left: 20px;
+    border-radius: 30px;
+}
+
+.camisa3 :placeholder-shown{
+    text-align:center;
+}
+
+.camisa3 img{
+    height: 50px;
+    width: 50px;
+    background-color: white;
+}
+
+.camisa3 button{
+    position:relative;
+    right:70px;
+    top: 10px;
+    padding: 0px;
+    border: 0px;
+}
+
+.camisa3 button:hover{
+    cursor: pointer;
+}
+
+.camisa3 a{
+    text-decoration: none;
+    color:white;
+    font-size: 40px;
+    position:relative;
+    left: 140px;
+    top:60px;
+    background-color: black;
+    border: 5px solid black;
+    padding: 20px;
+    border-radius: 50px;
+}
+
+.camisa3 a:hover{
+    background-color: white;
+    color:black;
+}
+
+.camisa4{
+    grid-column:1/4;
+    background-color: burlywood;
+}
+
+.camisa4 li{
+    display: inline-block;
+    font-size: 40px;
+    padding: 20px;
+    font-weight: bold;
+    position: relative;
+    left:700px;
+}
+
+.camisa4 a{
+    text-decoration: none;
+    color:black;
+    font-weight: bold;
+}
+
+.camisa4 a:hover{
+    border-bottom: 5px solid black;
+}
+
+.camisa5{
+    grid-column:1/4;
+}
+
+.camisa5 section{
+    display: inline-block;
+}
+
+.camisa5 .imagem img{
+    width: 1000px;
+    height: 1000px;
+    padding-top: 100px;
+    padding-left: 400px;
+}
+
+.camisa5 .informacoes{
+    position: relative;
+    left:150px;
+    bottom:150px;
+}
+
+.camisa5 h1, p{
+    font-size: 60px;
+    text-align: center;
+}
+
+.camisa5 h2{
+    font-size: 40px;
+}
+
+.camisa5 #tamanhos button{
+    position: relative;
+    left: 130px;
+    top:5px;
+    padding: 10px;
+    border-radius: 50%;
+    height: 70px;
+    width: 70px;
+    font-size: 30px;
+    margin: 10px;
+    background-color: white;
+    border:5px solid black;
+}
+
+.camisa5 #tamanhos .selecionado, #tamanhos button:hover{
+    background-color: black;
+    color:white;
+}
+
+.camisa5 #preto, #branco, #cinza, #rosa, #azul, #vermelho{
+    width: 60px;
+    height: 60px;
+    position: relative;
+    left: 240px;
+    top:5px;
+    border-radius: 50px;
+    border: 5px solid black;
+    margin: 10px;
+}
+
+.camisa5 #preto{
+    background-color: black;
+}
+
+.camisa5 #branco{
+    background-color: white;
+}
+
+.camisa5 #cinza{
+    background-color: gray;
+}
+
+.camisa5 #rosa{
+    background-color: palevioletred;
+}
+
+.camisa5 #azul{
+    background-color: rgb(122, 224, 224);
+}
+
+.camisa5 #vermelho{
+    background-color: rgba(145, 7, 7, 0.836);
+}
+
+.camisa5 #cores .selecionado{
+    border: 10px solid burlywood;
+    width: 70px;
+    height: 70px;
+}
+
+.camisa5 #quantidade button{
+    height: 60px;
+    width: 60px;
+    font-size: 50px;
+    position: relative;
+    left: 280px;
+    bottom:20px;
+    background-color: white;
+    padding: 2px;
+    border-radius: 20px;
+}
+
+.camisa5 #quantidade button:hover{
+    background-color: black;
+    color:white;
+}
+
+.camisa5 #quantidade .qt{
+    height: 20px;
+    font-size: 40px;
+    position: relative;
+    left: 280px;
+    bottom:20px;
+    margin:10px;
+} 
+
+.camisa5 #comprar button{
+    font-size: 40px;
+    padding: 20px;
+    background-color: burlywood;
+    width: 500px;
+    border-radius: 20px;
+    position: relative;
+    right: 70px;
+    top: 100px;
+    margin: 30px;
+    box-shadow: 10px 10px 10px gray;
+}
+
+.camisa5 button:hover{
+    cursor: pointer;
+    opacity: 0.9;
+}
+
+.camisa6{
+    grid-column: 1/4;
+    font-size: 30px;
+    background-color:burlywood;
+    height: 500px;
+}
+
+.camisa6 li{
+    display: inline-block;
+    font-size: 50px;
+    padding: 20px;
+    position: relative;
+    left:920px;
+}
+
+.camisa6 a{
+    text-decoration: none;
+    color:black;
+    font-weight: bold;
+}
+
+.camisa6 a:hover{
+    border-bottom: 5px solid black;
+}
+
+.camisa6 h1, h2, p{
+    text-align: center;
+}
+
+.camisa6 p{
+    font-size: 30px;
+}
