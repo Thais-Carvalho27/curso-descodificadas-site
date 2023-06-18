@@ -17,7 +17,6 @@ function corSelecionada(botao){
 }
 
 // Quantidade de camisas
-
 function aumentar(){
     var quant= document.querySelector('.qt');
     var incrementar = parseInt(quant.innerText);
