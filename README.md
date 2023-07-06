@@ -1,4 +1,4 @@
-# curso-descodificadas-site
+# site-loja-virtual
 
 Este é um projeto em desenvolvimento para a conclusão da trilha 1 do curso Descodificadas.
 
